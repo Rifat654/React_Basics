@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <Card name="Rifat " />
-      <Card name="John Doe" />
+      <Card name="Rifat " age={25} />
+      <Card name="John Doe" age={30} />
     </div>
   )
 }

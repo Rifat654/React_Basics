@@ -2,7 +2,7 @@
 import "../index.css"
 
 
-const Card = ({ name }) => {
+const Card = ({ name, age }) => {
 
     console.log(name);
 
@@ -15,6 +15,7 @@ const Card = ({ name }) => {
             />
 
             <h1 className="card-title">{name}</h1>
+            <p className="card-age">{age} years old</p>
 
             <p className="card-bio">
                 I am a MERN stack developer passionate about building modern web
