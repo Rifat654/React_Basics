@@ -1,14 +1,13 @@
-import State from "./components/state"
+import Card from "./components/Card"
 import "./index.css"
 
 
 const App = () => {
 
   return (
-    <div>
-      <h1>Hello World</h1>
-      <h1>Rifat is the best</h1>
-      <State />
+    <div className="app">
+      <Card name="Rifat " />
+      <Card name="John Doe" />
     </div>
   )
 }
