@@ -19,7 +19,7 @@ const PopUp = ({ id, header, body, footer }) => {
                 </div>
                 <div className="footer">
                     {
-                        footer ? footer : <h2>This is our footer</h2>
+                        footer ? footer : <h2>This is the footer container</h2>
                     }
                 </div>
             </div>
