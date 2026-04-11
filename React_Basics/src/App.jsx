@@ -1,13 +1,13 @@
 import Card from "./components/Card"
 import State from "./components/State"
 import "./index.css"
-import { list } from "./data.js"
+// import { list } from "./data.js"
 import PopUp from "./components/Pop_Up/PopUp.jsx"
 import PopupText from "./components/Pop_Up/PopupText.jsx"
 
 
 const App = () => {
-  console.log(list);
+
 
   return (
     <div  >
@@ -21,7 +21,8 @@ const App = () => {
 
       </div> */}
       {/* Custom Model Component */}
-      <PopupText />
+      {/* <PopupText /> */}
+      <State />
     </div>
   )
 }
