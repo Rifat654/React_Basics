@@ -1,9 +1,13 @@
 import React from 'react'
+import Section_1 from './components/Section-1/Section_1'
+import Section_2 from './components/Section-2/Section_2'
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-center text-red-500 text-2xl'>Hello world</h1>
+      <Section_1 />
+      <Section_2 />
+
     </div>
   )
 }
