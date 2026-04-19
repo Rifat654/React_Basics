@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-between px-5'>
+        <div className='flex items-center justify-between p-5'>
             <h1 className='H'>NAVBAR</h1>
             <div>
                 <ul className='flex gap-5'>
