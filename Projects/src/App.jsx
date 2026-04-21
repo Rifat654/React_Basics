@@ -5,8 +5,7 @@ import Section_2 from './components/Section-2/Section_2'
 const App = () => {
   return (
     <div>
-      <Section_1 />
-      <Section_2 />
+
 
     </div>
   )
