@@ -1,12 +1,15 @@
 import React from 'react'
-import Section_1 from './components/Section-1/Section_1'
-import Section_2 from './components/Section-2/Section_2'
+
 
 const App = () => {
+
+  let BTN = () => {
+    alert("Button Clicked")
+  }
   return (
     <div>
-
-
+      <h1>Hello, React!</h1>
+      <button onClick={BTN}>Click me </button>
     </div>
   )
 }
