@@ -1,15 +1,11 @@
-import React from 'react'
-
+import UseState from "./components/UseState"
 
 const App = () => {
 
-  let BTN = () => {
-    alert("Button Clicked")
-  }
+
   return (
     <div>
-      <h1>Hello, React!</h1>
-      <button onClick={BTN}>Click me </button>
+      <UseState />
     </div>
   )
 }
