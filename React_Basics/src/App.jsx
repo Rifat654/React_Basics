@@ -4,6 +4,7 @@ import "./index.css"
 // import { list } from "./data.js"
 import PopUp from "./components/Pop_Up/PopUp.jsx"
 import PopupText from "./components/Pop_Up/PopupText.jsx"
+import Img_Slider from "./components/Img_Slider.jsx"
 
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
       </div> */}
       {/* Custom Model Component */}
       {/* <PopupText /> */}
-      <State />
+      {/* <State /> */}
+      <Img_Slider />
     </div>
   )
 }

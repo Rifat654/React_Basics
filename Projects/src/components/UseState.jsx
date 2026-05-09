@@ -8,8 +8,9 @@ const UseState = () => {
         <div className='flex w-full h-screen justify-center items-center flex-col gap-5 '>
             <h1>Value is {num}</h1>
             <button onClick={() => setNum(num + 1)}>Increase</button>
+            <h1 className=''>Hello world</h1>
         </div>
     )
 }
 
-export default UseState
+export default UseState;
