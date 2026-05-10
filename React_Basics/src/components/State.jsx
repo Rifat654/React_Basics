@@ -10,6 +10,7 @@ const State = () => {
     return (
         <div className="text-center text-2xl text-red-600">
             <h1>This is State Component</h1>
+            <h1>Hello world</h1>
         </div>
     )
 }

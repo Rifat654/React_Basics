@@ -5,13 +5,15 @@ import "./index.css"
 import PopUp from "./components/Pop_Up/PopUp.jsx"
 import PopupText from "./components/Pop_Up/PopupText.jsx"
 import Img_Slider from "./components/Img_Slider.jsx"
+import Form from "./components/Form.jsx"
 
 
 const App = () => {
 
 
   return (
-    <div  >
+    <div className="   w-full h-screen" >
+      <h1 className="text-center">Basic React.js Concepts</h1>
       {/* <div className="main">
         {
           list.map((item) => (
@@ -24,7 +26,8 @@ const App = () => {
       {/* Custom Model Component */}
       {/* <PopupText /> */}
       {/* <State /> */}
-      <Img_Slider />
+      <Form />
+
     </div>
   )
 }
