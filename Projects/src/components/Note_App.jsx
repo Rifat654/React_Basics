@@ -18,6 +18,7 @@ const Note_App = () => {
 
     const inputFn = (e) => {
         // console.log(e.target.value);
+
         setInput(e.target.value);
 
     }
