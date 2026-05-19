@@ -1,31 +1,23 @@
-import React, { useState, } from 'react'
-
-import axios from 'axios';
+import axios from "axios";
 
 const App = () => {
 
-  const [quote, setQuote] = useState("");
+  // Axios  for calling the API 
+  const APIFn = async () => {
+    try {
+      const res = await axios.get("https://picsum.photos/v2/list");
+      console.log(res);
+    }
+    catch (err) {
+      console.log(err, "Something is happening");
 
-  const fetchQuote = async () => {
-    const res = await axios.get("https://ron-swanson-quotes.herokuapp.com/v2/quotes");
-    console.log(res.data);
-    setQuote(res.data[0]);
+    }
   }
 
-
-
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <div className="w-100 h-80 bg-gray-700 text-slate-100 rounded-md p-4 flex flex-col items-center gap-4">
-        <h1 className="text-center text-2xl">Random quote generator </h1>
-        <button
-
-          onClick={fetchQuote}
-          className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          children="Click"
-        />
-        <p className="text-center italic">{quote}</p>
-      </div>
+    <div className="w-full h-screen bg-gray-900 text-white">
+      <h1>Gallery-projects</h1>
+      <button onClick={APIFn} className=" px-4 py-2 rounded-2xl bg-blue-950 text-white scale-3d hover:scale-105 transition-transform duration-200 cursor-pointer">Click me</button>
     </div>
   )
 }
