@@ -8,7 +8,8 @@ const App = () => {
 
   return (
     <div className="   w-full h-screen bg-blue-950 text-white" >
-      <nav className="w-full h-16 bg-slate-800 text-white items-center justify-between px-4" >
+      
+      {/* <nav className="w-full h-16 bg-slate-800 text-white items-center justify-between px-4" >
         <h1>Logo</h1>
         <ul className=" hidden lg:flex space-x-4 items-center" >
           <li><Link to="/">Home</Link></li>
@@ -22,7 +23,7 @@ const App = () => {
         <Route path='/contact' element={<Contact />} />
 
 
-      </Routes>
+      </Routes> */}
 
 
     </div>
