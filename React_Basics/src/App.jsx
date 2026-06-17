@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="   w-full h-screen bg-blue-950 text-white" >
-      
+
       {/* <nav className="w-full h-16 bg-slate-800 text-white items-center justify-between px-4" >
         <h1>Logo</h1>
         <ul className=" hidden lg:flex space-x-4 items-center" >
@@ -24,6 +24,9 @@ const App = () => {
 
 
       </Routes> */}
+
+      {/* Context API  */}
+
 
 
     </div>
