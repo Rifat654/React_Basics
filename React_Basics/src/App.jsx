@@ -7,7 +7,7 @@ const App = () => {
 
 
   return (
-    <div className="   w-full h-screen bg-blue-950 text-white" >
+    <div className="   w-full h-screen bg-blue-950 text-white flex items-center justify-center" >
 
       {/* <nav className="w-full h-16 bg-slate-800 text-white items-center justify-between px-4" >
         <h1>Logo</h1>
@@ -27,6 +27,7 @@ const App = () => {
 
       {/* Context API  */}
 
+      <h1 className="flex items-center justify-center text-4xl">Context API</h1>
 
 
     </div>
