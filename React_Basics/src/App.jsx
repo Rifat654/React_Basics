@@ -2,8 +2,11 @@ import { Link, Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Btn from "./components/Context-Exm/Btn"
+import Text from "./components/Context-Exm/Text"
 
 const App = () => {
+
 
 
   return (
@@ -27,8 +30,9 @@ const App = () => {
 
       {/* Context API  */}
 
-      <h1 className="flex items-center justify-center text-4xl">Context API</h1>
-
+      {/* <h1 className="flex items-center justify-center text-4xl">Context API</h1> */}
+      <Btn />
+      <Text />
 
     </div>
   )

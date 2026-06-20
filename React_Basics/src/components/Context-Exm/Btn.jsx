@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ContextAPI = () => {
+const Btn = () => {
     return (
         <div>
-
+            <button>Click Me</button>
         </div>
     )
 }
 
-export default ContextAPI
+export default Btn
