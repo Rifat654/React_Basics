@@ -10,6 +10,7 @@ const Text = () => {
         <div>
             <h1>This is a simple text component.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quidem nesciunt excepturi nemo, ratione, debitis quod ipsum sapiente voluptates dicta officia assumenda natus fuga quas omnis! Voluptate dicta sapiente placeat?</p>
+
         </div>
     )
 }
