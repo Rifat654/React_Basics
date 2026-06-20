@@ -5,11 +5,11 @@ import App from './App.jsx'
 import { UserProvider } from './context/Provider.jsx'
 import { BrowserRouter } from "react-router-dom"
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <UserProvider>
+  <UserProvider>
+    <BrowserRouter>
       <App />
-    </UserProvider>
-  </BrowserRouter>
+    </BrowserRouter>
+  </UserProvider>
 )
 
 
