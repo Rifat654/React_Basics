@@ -7,11 +7,11 @@ const Text = () => {
     // console.log(getContextValue);
 
     return (
-        <div >
-            <h1 style={{
-                backgroundColor: theme === "light" ? "#orange" : "#000",
-                color: theme === "light" ? "blue" : "yellow",
-            }} >Hello, World!</h1>
+        <div style={{
+            backgroundColor: theme === "light" ? "#fff" : "#14344e",
+            color: theme === "light" ? "blue" : "yellow",
+        }} className='w-1/2 h-50 flex items-center justify-center rounded-lg shadow-md shadow-violet-900' >
+            <h1 >Hello, World!</h1>
 
         </div >
     )
