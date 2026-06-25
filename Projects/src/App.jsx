@@ -5,7 +5,7 @@ const App = () => {
 
 
   return (
-    <div >
+    <div className="w-full h-screen bg-slate-700 text-white">
       {/* Accordion */}
       <Accordion />
       {/* Gallery Project */}
