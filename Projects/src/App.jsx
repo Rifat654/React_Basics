@@ -6,11 +6,13 @@ const App = () => {
 
 
   return (
-    <div className="w-full h-screen bg-slate-700 text-white">
+    <div className="w-full h-full bg-gray-900 text-white">
       {/* Accordion */}
       {/* <Accordion /> */}
+
       {/* Todo app */}
       <Todo />
+
       {/* Gallery Project */}
       {/* <Demo /> */}
 
