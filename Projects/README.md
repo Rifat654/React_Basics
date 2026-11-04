@@ -1,2 +1,3 @@
-# React features with concepts 
+# Frontend features with concepts
 
+## FAQ or Accordion
