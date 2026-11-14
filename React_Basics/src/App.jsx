@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar"
+import Accordion from "./pages/FAQ/Accordion"
 
 const App = () => {
 
   return (
     <div>
-      <h1> React Basics </h1>
+      <Navbar />
+      <Accordion />
 
     </div>
   )
